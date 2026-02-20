@@ -12,12 +12,12 @@ Students often struggle to manage assignments, deadlines, and academic responsib
 
 ## Key Features
 
-1.	Task creation, update, and deletion (CRUD operations)
-2.	Task completion tracking
-3.	Structured and modular Flutter architecture
-4.	Android device support
-5.	Scalable project structure for backend integration
-6.	Clean Material Design-based UI
+1. Task creation, update, and deletion (CRUD operations)
+2. Task completion tracking
+3. Structured and modular Flutter architecture
+4. Android device support
+5. Scalable project structure for backend integration
+6. Clean Material Design-based UI
 
 ## Architecture
 
@@ -25,16 +25,15 @@ The application follows a layered architecture to promote maintainability and sc
 
 ## Presentation Layer
 
-1.	Screens (UI)
-2.	Widgets
-3.	State handling
-
+1. Screens (UI)
+2. Widgets
+3. State handling
 
 ## Domain Layer (Planned Extension)
 
-1.	Business logic
-2.	Models and entities
-3.	Use case definitions
+1. Business logic
+2. Models and entities
+3. Use case definitions
 
 ## Data Layer
 
@@ -64,6 +63,7 @@ The application follows a layered architecture to promote maintainability and sc
 4. Java JDK 17/21
 
 ### Project Structure
+
 ```bash
 stms_app/
 │
@@ -81,25 +81,35 @@ stms_app/
 └── README.md
 
 ```
+
 The structure is organized to support future expansion such as authentication, API integration, and advanced state management.
 
 Installation
+
 1. Clone the Repository
+
 ```bash
 git clone https://github.com/SilasHakuzwimana/stms.git
 ```
+
 2. Navigate to Project Directory
+
 ```bash
 cd stms_app
 ```
+
 3. Install Dependencies
+
 ```bash
 flutter pub get
 ```
+
 4. Run the Application
+
 ```bash
 flutter run
 ```
+
 ### Environment Requirements
 
 1. Flutter SDK (latest stable)
@@ -109,9 +119,11 @@ flutter run
 5. USB debugging enabled (for physical devices)
 
 Verify setup:
+
 ```bash
 flutter doctor
 ```
+
 ### Development Roadmap
 
 Planned improvements include:
